@@ -9,7 +9,7 @@
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 1,
+        "width": 0,
         "color": "#fff"
       },
       "image": {
@@ -33,7 +33,7 @@
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 120,
       "color": "#fff",
       "opacity": 0.5,
