@@ -353,6 +353,7 @@ img {
 
 #header-home {
   height: 12vh;
+  background: #000;
   color: #fff;
   position: relative;
 }
