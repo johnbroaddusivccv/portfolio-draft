@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+.display-social-sharing {
+  display: none;
+}
+
 .btn-main,
 .btn-light,
 .btn-dark {
