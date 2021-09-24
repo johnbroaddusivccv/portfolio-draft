@@ -336,10 +336,6 @@ img {
   border-color: #ffbc80;
 }
 
-#particles-js {
-  background-color: #000000;
-}
-
 #about-js {
   background: #000;
 }
@@ -352,10 +348,9 @@ img {
 }
 
 #header-home {
-  height: 12vh;
   background: #000;
   color: #fff;
-  position: relative;
+  padding-bottom: 3rem;
 }
 #header-home .header-content {
   text-align: center;
@@ -372,7 +367,6 @@ img {
 #header-inner {
   height: 12vh;
   color: #fff;
-  position: relative;
 }
 
 @media (max-width: 550px) {
@@ -382,12 +376,8 @@ img {
   #main-nav ul li {
     justify-content: center;
   }
-  #particles-js,
-  #about-js {
-    padding-bottom: 10%;
-  }
   #home-a .specials {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .bottom-line {
     width: 100%;
@@ -396,7 +386,7 @@ img {
 
 @media (max-width: 768px) {
   #home-a .specials {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   #home-c .process {
     grid-template-columns: repeat(1, 1fr);
@@ -415,10 +405,6 @@ img {
   #about-d .container > p.lead {
     text-align: center;
   }
-  #particles-js,
-  #about-js {
-    padding-bottom: 17%;
-  }
 }
 
 @media (max-width: 375px) {
@@ -427,10 +413,7 @@ img {
     padding: 10px;
     margin-top: 0;
   }
-  #particles-js,
-  #about-js {
-    padding-bottom: 17%;
-  }
+
   #home-a .about {
     display: grid;
     grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3';
@@ -628,10 +611,7 @@ img {
   #main-nav li {
     padding: 1rem;
   }
-  #header-home {
-    height: 10rem;
-    border-bottom: 3px solid #ffbc80;
-  }
+
   #header-inner {
     height: 10rem;
   }
@@ -674,10 +654,6 @@ img {
   }
   #main-nav li {
     padding: 1rem;
-  }
-  #header-home {
-    height: 8rem;
-    border-bottom: 3px solid #ffbc80;
   }
   #header-home .header-name {
     padding-top: 5%;
